@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa);
+}
+
+.container {
+    background: #fff;
+    width: 400px;
+    margin: 100px auto;
+    padding:40px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 8px;
+}
+
+.form-control small {
+    color: red;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form-control.success input {
+    border: 2px solid green;
+}
+
+.form-control.error input {
+    border: 2px solid red;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left:8px;
+}
+
+
